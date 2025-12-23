@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/CMakeFiles/bootloader
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/CMakeFiles/bootloader.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/CMakeFiles/bootloader-complete.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,72 @@
+Command: /home/johann/.espressif/python_env/idf6.1_py3.13_env/bin/python /home/johann/Projects/ESP32C3/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace /home/johann/Projects/ESP32C3/hello_OnBoardLED/build/hello_OnBoardLED.elf /home/johann/Projects/ESP32C3/hello_OnBoardLED/build/bootloader/bootloader.elf -m '/home/johann/.espressif/python_env/idf6.1_py3.13_env/bin/python' '/home/johann/Projects/ESP32C3/esp-idf/tools/idf.py'
+[0;32mI (200) heap_init: At 3FC8BE10 len 000341F0 (208 KiB): RAM[0m
+[0;32mI (205) ESP-ROM:esp32c3-api1-20210207[0m
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4004c0d4
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5830,len:0x15c4
+load:0x403cbf10,len:0xce0
+load:0x403ce710,len:0x2fec
+entry 0x403cbf1a
+[0;32mI (24) boot: ESP-IDF v6.1-dev-399-gd1b91b79b5 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Dec 23 2025 14:38:49[0m
+[0;32mI (25) boot: chip revision: v0.4[0m
+[0;32mI (26) boot: efuse block revision: v1.2[0m
+[0;32mI (30) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (33) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (37) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (41) boot: Enabling RNG early entropy source...[0m
+[0;32mI (45) boot: Partition Table:[0m
+[0;32mI (48) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (54) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (61) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (67) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (74) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=062ach ( 25260) map[0m
+[0;32mI (89) esp_image: segment 1: paddr=000162d4 vaddr=3fc89c00 size=013e0h (  5088) load[0m
+[0;32mI (93) esp_image: segment 2: paddr=000176bc vaddr=40380000 size=0895ch ( 35164) load[0m
+[0;32mI (106) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=10700h ( 67328) map[0m
+[0;32mI (117) esp_image: segment 4: paddr=00030728 vaddr=4038895c size=01124h (  4388) load[0m
+[0;32mI (119) esp_image: segment 5: paddr=00031854 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (125) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (127) boot: Disabling RNG early entropy source...[0m
+[0;32mI (143) cpu_start: Unicore app[0m
+[0;32mI (151) cpu_start: GPIO 20 and 21 are used as console UART I/O pins[0m
+[0;32mI (152) cpu_start: Pro cpu start user code[0m
+[0;32mI (152) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (154) app_init: Application information:[0m
+[0;32mI (157) app_init: Project name:     hello_OnBoardLED[0m
+[0;32mI (162) app_init: App version:      151f3df-dirty[0m
+[0;32mI (166) app_init: Compile time:     Dec 23 2025 14:38:40[0m
+[0;32mI (172) app_init: ELF file SHA256:  c3e903c63...[0m
+[0;32mI (176) app_init: ESP-IDF:          v6.1-dev-399-gd1b91b79b5[0m
+[0;32mI (181) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (185) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (189) efuse_init: Chip rev:         v0.4[0m
+[0;32mI (193) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (199) heap_init: At 3FC8BE10 len 000341F0 (208 KiB): RAM[0m
+[0;32mI (204) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (210) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (216) heap_init: At 50000020 len 00001FC8 (7 KiB): RTCRAM[0m
+[0;32mI (222) spi_flash: detected chip: generic[0m
+[0;32mI (225) spi_flash: flash io: dio[0m
+[0;33mW (228) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (241) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (247) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (254) main_task: Started on CPU0[0m
+[0;32mI (254) main_task: Calling app_main()[0m
+[0;32mI (254) blink: Turning LED OFF[0m
+[0;32mI (1254) blink: Turning LED ON[0m
+[0;32mI (2254) blink: Turning LED OFF[0m
+[0;32mI (3254) blink: Turning LED ON[0m
+[0;32mI (4254) blink: Turning LED OFF[0m
+[0;32mI (5254) blink: Turning LED ON[0m
+[0;32mI (6254) blink: Turning LED OFF[0m
+[0;32mI (7254) blink: Turning LED ON[0m
+[0;32mI (8254) blink: Turning LED OFF[0m
+[0;32mI (9254) blink: Turning LED ON[0m
+[0;32mI (10254) blink: Turning LED OFF[0m
+[0;32mI (11254) blink: Turning LED ON[0m
+[0;32mI (12254) blink: Turning LED OFF[0m

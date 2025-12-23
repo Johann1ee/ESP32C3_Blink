@@ -1,0 +1,2 @@
+source /home/johann/Projects/ESP32C3/hello_OnBoardLED/build/gdbinit/symbols
+source /home/johann/Projects/ESP32C3/hello_OnBoardLED/build/gdbinit/connect
